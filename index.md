@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: THE GALAPAGOS MARINE GENOMICS PROJECT
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+     Breakthrough Science That Will Redefine Galapagos Conservation
   action: # action button is optional
     label: Find Out More
     url: '#about'
