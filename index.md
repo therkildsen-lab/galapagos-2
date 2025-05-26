@@ -4,18 +4,14 @@ header:
   title: THE GALAPAGOS MARINE GENOMICS PROJECT
   text: >
      Breakthrough Science That Will Redefine Galapagos Conservation
-  action: # action button is optional
-    label: Find Out More
-    url: '#about'
 
 
 sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-custom-image
-    title: We are committed to preserving the unique marine life of the Galápagos Islands through genomic research.
     actions:
-      - title: Get Started!
+      - title: Learn more
         url: '#page-top'
         class: btn-light
 

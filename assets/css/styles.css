@@ -10929,7 +10929,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0,105,148, 0.7) 0%, rgba(0,105,148, 0.7) 100%), url("../img/banner_gmgp.png");
+  background: linear-gradient(to bottom, rgba(0,105,148, 0.7) 0%, rgba(0,105,148, 0.7) 100%), url("../img/Galapagos_1_WD.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10996,7 +10996,7 @@ header.masthead h1, header.masthead .h1 {
 
 /* Custom background image with dark blue text */
 section#about.bg-custom-image {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/GMGP_Web_Banner_HQ.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/GMGP_Web_Banner_darkLogo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
