@@ -10994,23 +10994,23 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-.bg-custom-image {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%), url("../img/GMGP_Web_Banner.png");
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-attachment: scroll !important;
-  background-size: cover !important;
+/* Custom background image with dark blue text */
+section#about.bg-custom-image {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url("../img/Galapagos_1_WD.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 75, 106) !important;
 }
 
-/* Custom background with dark blue text - high specificity */
-section.bg-custom-image,
-section.bg-custom-image h1,
-section.bg-custom-image h2,
-section.bg-custom-image h3,
-section.bg-custom-image h4,
-section.bg-custom-image h5,
-section.bg-custom-image h6,
-section.bg-custom-image p,
-section.bg-custom-image .text-white {
+section#about.bg-custom-image h1,
+section#about.bg-custom-image h2,
+section#about.bg-custom-image h3,
+section#about.bg-custom-image p {
   color: rgb(0, 75, 106) !important;
+}
+
+section#about.bg-custom-image .btn-light {
+  color: rgb(0, 75, 106) !important;
+  border-color: rgba(0, 75, 106, 0.5) !important;
 }
