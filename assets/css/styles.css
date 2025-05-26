@@ -10995,20 +10995,22 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .bg-custom-image {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../img/GMGP_Web_Banner.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%), url("../img/GMGP_Web_Banner.png");
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
   background-size: cover !important;
-  color: rgb(0, 75, 106) !important;
 }
 
-.bg-primary h1,
-.bg-primary h2,
-.bg-primary h3,
-.bg-primary h4,
-.bg-primary h5,
-.bg-primary h6,
-.bg-primary p {
+/* Custom background with dark blue text - high specificity */
+section.bg-custom-image,
+section.bg-custom-image h1,
+section.bg-custom-image h2,
+section.bg-custom-image h3,
+section.bg-custom-image h4,
+section.bg-custom-image h5,
+section.bg-custom-image h6,
+section.bg-custom-image p,
+section.bg-custom-image .text-white {
   color: rgb(0, 75, 106) !important;
 }
