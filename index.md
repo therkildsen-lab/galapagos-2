@@ -88,32 +88,36 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Our Team!
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: Nina O. Therkildsen
+        text: Principal Investigator, Marine genomics lead at Cornell University
+        image: assets/img/members/Nina.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: Jaime D. Ortiz
+        text: Co-Principal Investigator, PhD candidate in conservation genomics, Cornell University
+        image: assets/img/members/JD.jpg
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: Victor Ruotti
+        text: Lead Computer Scientist, Expert in bioinformatics and AI for large-scale genomic analysis
+        image: assets/img/members/Victor.jpg
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: Jorge Ramirez
+        text: Lead Fishery Researcher, Senior researcher, Charles Darwin Foundation
+        image: assets/img/members/Jorge_Ramirez.jpg
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: Wilson Rivadeneira
+        text: Senior Collaborator, Local artisanal fisherman and fisheries engineer in the Galapagos
+        image: assets/img/members/Wilson_rivadeneira.jpg
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Solange Andrade
+        text: Fishery Researcher, Charles Darwin Foundation
+        image: assets/img/members/Solange_Andrade.jpg
+        url: '#'
+      - title: Nicolas Moity
+        text: Fishery Researcher, Charles Darwin Foundation
+        image: assets/img/members/Nico_Moity.jpg
         url: '#'
 
   - type: timeline.html
