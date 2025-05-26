@@ -10996,7 +10996,7 @@ header.masthead h1, header.masthead .h1 {
 
 /* Custom background image with dark blue text */
 section#about.bg-custom-image {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/GMGP_Web_Banner_darkLogo.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/GMGP_Web_Banner_1200x400.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
