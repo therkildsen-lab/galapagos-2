@@ -109,7 +109,7 @@ sections:
         url: '#'
       - title: Wilson Rivadeneira
         text: Senior Collaborator, Local artisanal fisherman and fisheries engineer in the Galapagos
-        image: assets/img/members/Wilson_rivadeneira.jpg
+        image: assets/img/members/Wilson_rivadeneira.jpeg
         url: '#'
       - title: Solange Andrade
         text: Fishery Researcher, Charles Darwin Foundation
