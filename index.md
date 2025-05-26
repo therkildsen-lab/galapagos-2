@@ -12,9 +12,9 @@ header:
 sections:
   - type: call-to-action.html
     section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    background_style: bg-custom-image
+    title: We are committed to preserving the unique marine life of the Galápagos Islands through genomic research.
+    
     actions:
       - title: Get Started!
         url: '#page-top'
