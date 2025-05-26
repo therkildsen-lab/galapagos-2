@@ -14,7 +14,6 @@ sections:
     section_id: about
     background_style: bg-custom-image
     title: We are committed to preserving the unique marine life of the Galápagos Islands through genomic research.
-    
     actions:
       - title: Get Started!
         url: '#page-top'
