@@ -10997,8 +10997,8 @@ header.masthead h1, header.masthead .h1 {
 /* Optimized background image with responsive scaling */
 section#about.bg-custom-image {
   background: linear-gradient(to bottom, 
-    rgba(25, 42, 86, 0.4) 0%, 
-    rgba(25, 42, 86, 0.4) 100%), 
+    rgba(25, 42, 86, 0.1) 0%, 
+    rgba(25, 42, 86, 0.1) 100%), 
     url("../img/GMGP_Web_Banner_1200x400_1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -11025,8 +11025,8 @@ section#about.bg-custom-image {
     min-height: 200px;
     padding: 1rem 0.5rem;
     background-image: linear-gradient(to bottom, 
-      rgba(25, 42, 86, 0.6) 0%, 
-      rgba(25, 42, 86, 0.6) 100%), 
+      rgba(25, 42, 86, 0.3) 0%, 
+      rgba(25, 42, 86, 0.3) 100%), 
       url("../img/GMGP_Web_Banner_1200x400.png");
   }
   
