@@ -11057,27 +11057,28 @@ section#about.bg-custom-image .btn-light:hover {
   border-color: white !important;
 }
 
-/* Custom service icons as background images */
-.service-icon i.custom-genomics {
-  background-image: url('/assets/img/icons/stakeholders_icon.png');
-}
-.service-icon i.custom-conservation {
-  background-image: url('/assets/img/icons/galapagos_icon.png');
-}
-.service-icon i.custom-analytics {
-  background-image: url('/assets/img/icons/dna_icon.png');
-}
-.service-icon i.custom-collaboration {
-  background-image: url('/assets/img/icons/AI_icon.png');
+/* Custom Icons - High Specificity Override */
+section#services .service-box i[class^="custom-"] {
+    display: inline-block;
+    width: 3rem !important;
+    height: 3rem !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    font-size: 0 !important; /* Hide any text content */
+    margin-bottom: 1rem;
 }
 
-/* Style the icon container to show the image properly */
-.service-icon i[class^="custom-"], .service-icon i[class*=" custom-"] {
-  display: inline-block;
-  width: 4rem;
-  height: 4rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-size: 0; /* Hide any font icon fallback */
+/* Individual Icon Definitions */
+section#services .service-box i.custom-genomics {
+    background-image: url("../img/icons/stakeholders_icon.png") !important;
+}
+section#services .service-box i.custom-conservation {
+    background-image: url("../img/icons/galapagos_icon.png") !important;
+}
+section#services .service-box i.custom-analytics {
+    background-image: url("../img/icons/dna_icon.png") !important;
+}
+section#services .service-box i.custom-collaboration {
+    background-image: url("../img/icons/AI_icon.png") !important;
 }
