@@ -17,28 +17,31 @@ sections:
 
   - type: services.html
     section_id: services
-    #background_style: bg-info
-    title: At Your Service
+    title: Our Strategy
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
+      - title: Stakeholder Integration
+        text: |
+          • Co-designed sampling strategies
+          • Shared planning with local fishers and Galapagos National Park staff
+          • Workshops and capacity building
+        icon: custom-genomics
+      - title: Whole-Archipelago Sampling
+        text: |
+          • Start with ecologically important and economically valuable species.
+          • 200 individuals per species
+        icon: custom-conservation
+      - title: Genomics
+        text: |
+          • Whole Genome Sequencing
+          • Generate high-quality, chromosome-level genome assemblies for each target species
+          • Identify and analyze genome-wide patterns of genetic diversity and variation
+        icon: custom-analytics
+      - title: AI - Integration
+        text: |
+          • Improve low-coverage sequencing data
+          • Predict population dynamics
+          • Enhance adaptive signal detection
+        icon: custom-collaboration
 
   - type: portfolio.html
     # this section has always ID 'portfolio'

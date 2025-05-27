@@ -11056,3 +11056,71 @@ section#about.bg-custom-image .btn-light:hover {
   color: white !important;
   border-color: white !important;
 }
+
+/* Custom icon styles with bullet point formatting */
+.service-box .custom-genomics,
+.service-box .custom-conservation,
+.service-box .custom-analytics,
+.service-box .custom-collaboration {
+  font-size: 0; /* Hide any text */
+  width: 4rem;
+  height: 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* Individual custom icons */
+.service-box .custom-genomics {
+  background-image: url('../img/icons/stakeholders_icon.png');
+}
+
+.service-box .custom-conservation {
+  background-image: url('../img/icons/galapagos_icon.png');
+}
+
+.service-box .custom-analytics {
+  background-image: url('../img/icons/dna_icon.png');
+}
+
+.service-box .custom-collaboration {
+  background-image: url('../img/icons/AI_icon.png');
+}
+
+/* Format bullet point text in services */
+.service-box p {
+  white-space: pre-line; /* Preserves line breaks from YAML */
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Style the bullet points */
+.service-box p::before {
+  content: "";
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Hover effects for custom icons */
+.service-box:hover .custom-genomics,
+.service-box:hover .custom-conservation,
+.service-box:hover .custom-analytics,
+.service-box:hover .custom-collaboration {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Service box spacing adjustments */
+.service-box {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.service-box h3 {
+  margin-bottom: 1rem;
+  color: rgb(0, 75, 106);
+}
+
