@@ -11071,7 +11071,7 @@ section#services .service-box i[class^="custom-"] {
 
 /* Individual Icon Definitions */
 section#services .service-box i.custom-genomics {
-<<<<<<< HEAD
+
     background-image: url("../img/icons/stakeholders_icon.png") !important;
 }
 section#services .service-box i.custom-conservation {
@@ -11082,16 +11082,4 @@ section#services .service-box i.custom-analytics {
 }
 section#services .service-box i.custom-collaboration {
     background-image: url("../img/icons/AI_icon.png") !important;
-=======
-    background-image: url('../img/icons/stakeholders_icon.png') !important;
-}
-section#services .service-box i.custom-conservation {
-    background-image: url('../img/icons/galapagos_icon.png') !important;
-}
-section#services .service-box i.custom-analytics {
-    background-image: url('../img/icons/dna_icon.png') !important;
-}
-section#services .service-box i.custom-collaboration {
-    background-image: url('../img/icons/AI_icon.png') !important;
->>>>>>> e0cc16033fd2c40f2b150b558b1cfa38d9c843f2
 }
