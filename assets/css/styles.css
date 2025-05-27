@@ -11057,66 +11057,27 @@ section#about.bg-custom-image .btn-light:hover {
   border-color: white !important;
 }
 
-/* Hide all Bootstrap Icons and replace with custom icons */
-.service-box i {
-  font-size: 0 !important;
+/* Custom service icons as background images */
+.service-icon i.custom-genomics {
+  background-image: url('/assets/img/icons/stakeholders_icon.png');
+}
+.service-icon i.custom-conservation {
+  background-image: url('/assets/img/icons/galapagos_icon.png');
+}
+.service-icon i.custom-analytics {
+  background-image: url('/assets/img/icons/dna_icon.png');
+}
+.service-icon i.custom-collaboration {
+  background-image: url('/assets/img/icons/AI_icon.png');
+}
+
+/* Style the icon container to show the image properly */
+.service-icon i[class^="custom-"], .service-icon i[class*=" custom-"] {
+  display: inline-block;
   width: 4rem;
   height: 4rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  display: inline-block !important;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-/* Custom icon mappings */
-.service-box i.custom-genomics {
-  background-image: url('../img/icons/stakeholders_icon.png');
-}
-
-.service-box i.custom-conservation {
-  background-image: url('../img/icons/galapagos_icon.png');
-}
-
-.service-box i.custom-analytics {
-  background-image: url('../img/icons/dna_icon.png');
-}
-
-.service-box i.custom-collaboration {
-  background-image: url('../img/icons/AI_icon.png');
-}
-
-/* Format bullet point text in services */
-.service-box p {
-  white-space: pre-line;
-  text-align: left;
-  line-height: 1.6;
-  margin-bottom: 0;
-}
-
-/* Service box styling */
-.service-box {
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-.service-box h3 {
-  margin-bottom: 1rem;
-  color: rgb(0, 75, 106);
-}
-
-/* Hover effects for custom icons */
-.service-box:hover i {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
-/* Ensure all Bootstrap icon classes are overridden */
-.service-box i[class*="bi-"] {
-  background-image: none !important;
-}
-
-.service-box i[class*="bi-"]:before {
-  content: none !important;
+  font-size: 0; /* Hide any font icon fallback */
 }
