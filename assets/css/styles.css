@@ -11057,9 +11057,8 @@ section#about.bg-custom-image .btn-light:hover {
   border-color: white !important;
 }
 
-/* Override Bootstrap Icons with custom icons */
-.service-box i[class^="custom-"],
-.service-box i[class*=" custom-"] {
+/* Hide all Bootstrap Icons and replace with custom icons */
+.service-box i {
   font-size: 0 !important;
   width: 4rem;
   height: 4rem;
@@ -11071,20 +11070,20 @@ section#about.bg-custom-image .btn-light:hover {
   position: relative;
 }
 
-/* Individual custom icons */
-.service-box .custom-genomics {
+/* Custom icon mappings */
+.service-box i.custom-genomics {
   background-image: url('../img/icons/stakeholders_icon.png');
 }
 
-.service-box .custom-conservation {
+.service-box i.custom-conservation {
   background-image: url('../img/icons/galapagos_icon.png');
 }
 
-.service-box .custom-analytics {
+.service-box i.custom-analytics {
   background-image: url('../img/icons/dna_icon.png');
 }
 
-.service-box .custom-collaboration {
+.service-box i.custom-collaboration {
   background-image: url('../img/icons/AI_icon.png');
 }
 
@@ -11108,14 +11107,16 @@ section#about.bg-custom-image .btn-light:hover {
 }
 
 /* Hover effects for custom icons */
-.service-box:hover i[class^="custom-"],
-.service-box:hover i[class*=" custom-"] {
+.service-box:hover i {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
 
-/* Hide Bootstrap icon classes if they exist */
-.service-box i[class^="bi-"],
-.service-box i[class*=" bi-"] {
-  display: none !important;
+/* Ensure all Bootstrap icon classes are overridden */
+.service-box i[class*="bi-"] {
+  background-image: none !important;
+}
+
+.service-box i[class*="bi-"]:before {
+  content: none !important;
 }
