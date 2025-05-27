@@ -11057,19 +11057,18 @@ section#about.bg-custom-image .btn-light:hover {
   border-color: white !important;
 }
 
-/* Custom icon styles with bullet point formatting */
-.service-box .custom-genomics,
-.service-box .custom-conservation,
-.service-box .custom-analytics,
-.service-box .custom-collaboration {
-  font-size: 0; /* Hide any text */
+/* Override Bootstrap Icons with custom icons */
+.service-box i[class^="custom-"],
+.service-box i[class*=" custom-"] {
+  font-size: 0 !important;
   width: 4rem;
   height: 4rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  display: inline-block;
-  margin-bottom: 1.5rem;
+  display: inline-block !important;
+  margin-bottom: 1rem;
+  position: relative;
 }
 
 /* Individual custom icons */
@@ -11091,29 +11090,13 @@ section#about.bg-custom-image .btn-light:hover {
 
 /* Format bullet point text in services */
 .service-box p {
-  white-space: pre-line; /* Preserves line breaks from YAML */
+  white-space: pre-line;
   text-align: left;
   line-height: 1.6;
   margin-bottom: 0;
 }
 
-/* Style the bullet points */
-.service-box p::before {
-  content: "";
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-/* Hover effects for custom icons */
-.service-box:hover .custom-genomics,
-.service-box:hover .custom-conservation,
-.service-box:hover .custom-analytics,
-.service-box:hover .custom-collaboration {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
-/* Service box spacing adjustments */
+/* Service box styling */
 .service-box {
   padding: 2rem 1rem;
   text-align: center;
@@ -11124,3 +11107,15 @@ section#about.bg-custom-image .btn-light:hover {
   color: rgb(0, 75, 106);
 }
 
+/* Hover effects for custom icons */
+.service-box:hover i[class^="custom-"],
+.service-box:hover i[class*=" custom-"] {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hide Bootstrap icon classes if they exist */
+.service-box i[class^="bi-"],
+.service-box i[class*=" bi-"] {
+  display: none !important;
+}
