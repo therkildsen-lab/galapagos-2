@@ -24,24 +24,28 @@ sections:
           • Co-designed sampling strategies
           • Shared planning with local fishers and Galapagos National Park staff
           • Workshops and capacity building
-        icon: bi-gem
+        icon: |
+        <img src="/img/icons/stakeholders_icon.png" alt="Genomics Icon" style="width:64px;height:64px;display:block;margin:0 auto 1rem;" />
       - title: Whole-Archipelago Sampling
         text: |
           • Start with ecologically important and economically valuable species.
           • 200 individuals per species
-        icon: bi-shield-check
+        icon: |
+        <img src="/img/icons/galapagos_icon.png" alt="Genomics Icon" style="width:64px;height:64px;display:block;margin:0 auto 1rem;" />
       - title: Genomics
         text: |
           • Whole Genome Sequencing
           • Generate high-quality, chromosome-level genome assemblies for each target species
           • Identify and analyze genome-wide patterns of genetic diversity and variation
-        icon: bi-graph-up
+        icon: |
+        <img src="/img/icons/dna_icon.png" alt="Genomics Icon" style="width:64px;height:64px;display:block;margin:0 auto 1rem;" />
       - title: AI - Integration
         text: |
           • Improve low-coverage sequencing data
           • Predict population dynamics
           • Enhance adaptive signal detection
-        icon: bi-people
+        icon: |
+        <img src="/img/icons/AI_icon.png" alt="Genomics Icon" style="width:64px;height:64px;display:block;margin:0 auto 1rem;" />
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
