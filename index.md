@@ -21,7 +21,7 @@ sections:
     services:
       - title: Stakeholder Integration
         text: |
-          <img src="../assets/img/icons/stakeholders_icon.png" alt="Genomics Icon" class="service-custom-png-icon">
+          <img src="{{ site.baseurl }}/assets/img/icons/stakeholders_icon.png" alt="Genomics Icon" class="service-custom-png-icon"> 
           • Co-designed sampling strategies
           • Shared planning with local fishers and Galapagos National Park staff
           • Workshops and capacity building
