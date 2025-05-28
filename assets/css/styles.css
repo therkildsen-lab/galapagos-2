@@ -11057,3 +11057,44 @@ section#about.bg-custom-image .btn-light:hover {
   border-color: white !important;
 }
 
+/* Hide the default Bootstrap icon <i> tag and its container if the theme still renders them */
+section#services .service-box .service-icon,
+section#services .service-box i[class^="bi-"],
+section#services .service-box i[class*=" bi-"] {
+    display: none !important;
+}
+
+/* Styling for the custom PNG icons inserted via <img> tags */
+section#services .service-box p img.service-custom-png-icon {
+  display: block; /* Ensures the image is on its own line */
+  margin: 0 auto 1rem auto; /* Centers the icon horizontally, adds 1rem space below it */
+  width: 64px;  /* Set desired width for your PNG icon */
+  height: 64px; /* Set desired height for your PNG icon */
+  object-fit: contain; /* Ensures the PNG scales properly within the dimensions */
+}
+
+/* Styling for the service box title (h3) */
+section#services .service-box h3 { /* Or a more specific class if your theme uses one like .service-heading */
+  margin-top: 0.5rem; /* Adjust space between centered icon and title */
+  margin-bottom: 1rem; /* Space below title, before text */
+  color: rgb(0, 75, 106); /* Your desired dark blue text color */
+  text-align: center; /* Center the title */
+}
+
+/* Styling for the service box text paragraph (which contains the bullet points) */
+section#services .service-box p { /* Or a more specific class like .service-text */
+  white-space: pre-line; /* This renders newlines from YAML as line breaks, good for your bullets */
+  text-align: left;      /* Keep the bullet point text itself left-aligned */
+  line-height: 1.6;      /* Adjust line spacing for readability */
+  margin-bottom: 0;      /* Remove default bottom margin if not needed */
+  color: rgb(0, 75, 106); /* Your desired dark blue text color */
+  
+  /* To make the block of left-aligned bullet points appear centered under the icon/title: */
+  display: inline-block; /* Allows the paragraph to be centered by its parent's text-align:center */
+}
+
+/* Ensure the .service-box itself centers its main content blocks */
+section#services .service-box {
+  text-align: center; /* This will center the <h3> and the <p> (which is display:inline-block) */
+  margin-bottom: 2rem; /* Add some space below each service box */
+}
