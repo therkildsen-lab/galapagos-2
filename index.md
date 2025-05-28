@@ -21,11 +21,11 @@ sections:
     services:
       - title: Stakeholder Integration
         text: |
-          <img src="../img/icons/stakeholders_icon.png" alt="Genomics Icon" class="service-custom-png-icon"> 
+          #<img src="../img/icons/stakeholders_icon.png" alt="Genomics Icon" class="service-custom-png-icon"> 
           • Co-designed sampling strategies
           • Shared planning with local fishers and Galapagos National Park staff
           • Workshops and capacity building
-        #icon: bi-gem
+        icon: ../img/icons/stakeholders_icon.png
       - title: Whole-Archipelago Sampling
         text: |
           • Start with ecologically important and economically valuable species.
