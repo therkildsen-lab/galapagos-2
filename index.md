@@ -24,7 +24,7 @@ sections:
           • Co-designed sampling strategies
           • Shared planning with local fishers and Galapagos National Park staff
           • Workshops and capacity building
-        icon: /galapagos-2/img/icons/stakeholders_icon.png
+        icon: /galapagos-2/assets/img/icons/stakeholders_icon.png
       - title: Whole-Archipelago Sampling
         text: |
           • Start with ecologically important and economically valuable species.
