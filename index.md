@@ -20,7 +20,7 @@ sections:
     title: Our Strategy
     services:
       - title: Stakeholder Integration
-        text: text: |
+        text: |
           <img src="{{ site.baseurl }}/assets/img/icons/stakeholders_icon.png" alt="Genomics Icon" class="service-custom-png-icon">
           • Co-designed sampling strategies
           • Shared planning with local fishers and Galapagos National Park staff
