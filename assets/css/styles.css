@@ -11103,7 +11103,7 @@ section#services .service-box {
 section#services .text-muted ul,
 section#services .text-muted ul li {
   color: #003a52 !important;
-  font-size: 1.15rem !important;
+  font-size: 0.8rem !important;
 }
 
 /* Ensure bullet points are left-aligned */
