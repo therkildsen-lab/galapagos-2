@@ -120,17 +120,16 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: GMGP
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/portfolio/thumbnails/IMG-20240113-WA0030.jpg
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          **Our Vision**
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          Leading the way in conservation innovation using genomics and AI to safeguard whole ecosystems, 
+          not just individual species.
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
           November 2019
