@@ -27,7 +27,7 @@ sections:
         icon: /galapagos-2/assets/img/icons/stakeholder_icon.png
       - title: Whole-Archipelago Sampling
         text: |
-          - Start with ecologically important and economically valuable species.
+          - Start with ecologically important and economically valuable species
           - 200 individuals per species
         icon: /galapagos-2/assets/img/icons/map_icon.png
       - title: Genomics
