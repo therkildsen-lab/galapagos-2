@@ -11098,3 +11098,11 @@ section#services .service-box {
   text-align: center; /* This will center the <h3> and the <p> (which is display:inline-block) */
   margin-bottom: 2rem; /* Add some space below each service box */
 }
+
+/* Optional: If you want to target only the bullet points (list items) */
+section#services .text-muted ul,
+section#services .text-muted ul li {
+  color: #003a52 !important;      /* Match the color above */
+  font-size: 1.15rem !important;  /* Match the size above */
+}
+
