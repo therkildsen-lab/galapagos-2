@@ -130,7 +130,7 @@ sections:
         text: >-
           Leading the way in conservation innovation using genomics and AI to safeguard whole ecosystems, 
           not just individual species.
-      - image: assets/img/portfolio/thumbnails/Screenshot_gct_Magazine.png
+      - image: assets/img/portfolio/thumbnails/gct_challenges.png
         title: >+
           Why
           It Matters
