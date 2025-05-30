@@ -130,13 +130,12 @@ sections:
         text: >-
           Leading the way in conservation innovation using genomics and AI to safeguard whole ecosystems, 
           not just individual species.
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/portfolio/thumbnails/Screenshot_gct_Magazine.jpg
         title: >+
-          November 2019
-          An Coaching started
+          Why
+          It Matters
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Our traditional conservation tools are failing to keep pace with the mounting challenges.
 
   - type: contact.html
     section_id: contacts
