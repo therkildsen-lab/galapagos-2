@@ -11126,7 +11126,7 @@ section#aside.bg-custom-image-partners {
   background-size: cover;
   background-attachment: local;
   max-height: 300px; /* Match image height */
-  aspect-ratio: 3/1; /* Maintain 1200:400 ratio */
+  aspect-ratio: 4/1; /* Maintain 1200:400 ratio */
   color: rgb(255, 255, 255) !important;
   position: relative;
   padding: 2rem 1rem;
