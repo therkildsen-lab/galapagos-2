@@ -122,7 +122,7 @@ sections:
     section_id: timeline
     title: GMGP
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    last_image: assets/img/portfolio/thumbnails/logo_red_lightBlue.png
     actions:
       - image: assets/img/portfolio/thumbnails/IMG-20240113-WA0030.jpg
         title: >+
