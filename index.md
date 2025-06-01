@@ -78,11 +78,8 @@ sections:
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+    title: Our Partners
+    background_style: bg-custom-image-partners
 
   - type: members.html
     section_id: members
@@ -120,7 +117,7 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: GMGP
+    title: From DNA to Decision-Making
     background_style: bg-dark text-primary
     last_image: assets/img/portfolio/thumbnails/logo_red_lightBlue.png
     actions:
