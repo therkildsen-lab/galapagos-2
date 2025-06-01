@@ -11127,7 +11127,7 @@ section#aside.bg-custom-image-partners {
   background-attachment: local;
   min-height: 400px; /* Match image height */
   aspect-ratio: 3/1; /* Maintain 1200:400 ratio */
-  color: rgb(0, 75, 106) !important;
+  color: rgb(255, 255, 255) !important;
   position: relative;
   padding: 2rem 1rem;
 }
@@ -11154,14 +11154,6 @@ section#aside.bg-custom-image-partners {
   section#aside.bg-custom-image-partners h1 {
     font-size: 1.75rem !important;
   }
-}
-
-/* Text hierarchy */
-section#aside.bg-custom-image-partners h1,
-section#aside.bg-custom-image-partners h2,
-section#aside.bg-custom-image-partners h3 {
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
-  margin-bottom: 1.5rem !important;
 }
 
 
