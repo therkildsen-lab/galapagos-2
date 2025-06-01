@@ -11125,7 +11125,7 @@ section#aside.bg-custom-image-partners {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: local;
-  max-height: 300px; /* Match image height */
+  min-height: 300px; /* Match image height */
   
   color: rgb(255, 255, 255) !important;
   position: relative;
