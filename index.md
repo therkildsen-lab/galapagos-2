@@ -53,7 +53,7 @@ sections:
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: /galapagos-2/assets/img/portfolio/fullsize/ANA_Matt.jpg
+        icon: ANA_Matt.png
         url: '#'
       - title: Project 2
         text: This is a very short project description.
