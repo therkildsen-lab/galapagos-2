@@ -53,7 +53,7 @@ sections:
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: ANA_Matt.png
+        icon: ana_Ortiz_Matt.png
         url: '#'
       - title: Project 2
         text: This is a very short project description.
