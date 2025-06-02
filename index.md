@@ -48,12 +48,12 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Ambassadors
+        text: Meet our Project Ambassadors
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: ANA_Matt.jpg
         url: '#'
       - title: Project 2
         text: This is a very short project description.
