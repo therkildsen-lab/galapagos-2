@@ -1,12 +1,10 @@
 ---
 layout: page
-title: "Ambassadors"
+title: "Meet our Project Ambassadors"
 background_image: "/galapagos-2/assets/img/portfolio/fullsize/ana_Ortiz_Matt.png"
 ---
 
-<strong>Meet our Project Ambassadors.</strong> <br>
-<p>
-**Our ambassadors bring passion, local knowledge, and global perspectives to champion marine conservation in the Galápagos.**
+<strong>Our ambassadors bring passion, local knowledge, and global perspectives to champion marine conservation in the Galápagos.</strong> <br>
 <p>
 
 <!-- Main centered image -->
