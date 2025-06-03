@@ -78,12 +78,12 @@ sections:
 
   - type: aside.html
     section_id: aside
-    title: Our Partners
+    title: Meet Our Partners
     background_style: bg-custom-image-partners
 
   - type: members.html
     section_id: members
-    title: Our Team!
+    title: Meet Our Team
     background_style: bg-info text-white
     members:
       - title: Nina O. Therkildsen
