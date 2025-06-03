@@ -1,0 +1,11 @@
+<div class="bio-section" id="{{ section.section_id }}">
+  <div class="bio-container">
+    <img class="bio-image" src="{{ section.image }}" alt="{{ section.alt | default: section.title }}">
+    <div class="bio-text">
+      {% if section.title %}
+      <h3>{{ section.title }}</h3>
+      {% endif %}
+      {{ section.text | markdownify }}
+    </div>
+  </div>
+</div>
