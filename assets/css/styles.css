@@ -11156,5 +11156,51 @@ section#aside.bg-custom-image-partners {
   }
 }
 
+.project-main-image {
+  display: block;
+  margin: 2rem auto 2rem auto;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 32px rgba(50,70,100,0.11);
+}
+
+.project-content-row {
+  display: flex;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(50,70,100,0.07);
+  padding: 2rem 2rem;
+  gap: 2rem;
+}
+
+.project-side-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(60,60,90,0.09);
+  flex-shrink: 0;
+}
+
+.project-content-text {
+  flex: 1;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+@media (max-width: 700px) {
+  .project-content-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+  .project-side-image {
+    margin-bottom: 1rem;
+  }
+}
 
 
