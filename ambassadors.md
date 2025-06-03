@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Ambassadors"
-permalink: /projects/ambassadors.html
 background_image: "/galapagos-2/assets/img/portfolio/fullsize/ana_Ortiz_Matt.png"
 ---
 
