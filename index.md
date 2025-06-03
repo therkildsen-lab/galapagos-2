@@ -57,7 +57,7 @@ sections:
         url: '#'
       - title: Overcoming Conservation Challenges
         text: Genomics Unlocks New Possibilities for Protecting Nature.
-        icon: powering_conservation.png
+        icon: challenge.png
         url: '#'
       - title: Our Goals
         text: Bold innovation is the only path forward.
@@ -65,7 +65,7 @@ sections:
         url: '#'
       - title: The State of Genomic Data in the Galapagos
         text: How Complete is Our DNA Knowledge of Galapagos Animals?
-        icon: missing.png
+        icon: state_genomics.png
         url: '#'
       - title: Latest Project Highlights
         text: Stay Updated on Our Ongoing Work.
