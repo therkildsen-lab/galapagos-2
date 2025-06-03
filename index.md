@@ -54,7 +54,7 @@ sections:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: ana_Ortiz_Matt.png
-        url: '#'
+        url: '/galapagos-2/_projects/ambassadors.html'
       - title: Overcoming Conservation Challenges
         text: Genomics Unlocks New Possibilities for Protecting Nature.
         icon: challenge.png
