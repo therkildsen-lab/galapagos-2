@@ -136,16 +136,13 @@ sections:
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Support Our Mission!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Contact us to support groundbreaking research and protect Galapagos species.
     actions:
-    - title: +1 (202) 555-014
-      icon: bi-telephone-fill
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
+      url: mailto:jdo53@cornell.edu
     - title: Twitter
       icon: bi-twitter
       url: '#'
