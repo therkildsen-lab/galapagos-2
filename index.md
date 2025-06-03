@@ -55,25 +55,25 @@ sections:
         # img/portfolio/thumbnails
         icon: ana_Ortiz_Matt.png
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
+      - title: Overcoming Conservation Challenges
+        text: Genomics Unlocks New Possibilities for Protecting Nature.
+        icon: powering_conservation.png
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
+      - title: Our Goals
+        text: Bold innovation is the only path forward.
+        icon: goals.png
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
+      - title: The State of Genomic Data in the Galapagos
+        text: How Complete is Our DNA Knowledge of Galapagos Animals?
+        icon: missing.png
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
+      - title: Latest Project Highlights
+        text: Stay Updated on Our Ongoing Work.
+        icon: work.png
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
+      - title: Be Part of the Solution
+        text: Support Our Mission to Advance Conservation Science in the Galapagos.
+        icon: join_us.png
         url: '#'
 
   - type: aside.html
