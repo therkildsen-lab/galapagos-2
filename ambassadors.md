@@ -3,7 +3,7 @@ layout: page
 title: Ambassadors
 background_image: "/galapagos-2/assets/img/portfolio/fullsize/ana_Ortiz_Matt.png"
 
-  sections:
+sections:
   - type: paragraph.html
     section_id: intro
     title: Meet our Project Ambassadors
