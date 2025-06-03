@@ -1,4 +1,9 @@
 <div class="bio-section" id="{{ section.section_id }}">
+  {% if section.main_image %}
+    <div class="bio-main-image-wrapper">
+      <img class="bio-main-image" src="{{ section.main_image }}" alt="{{ section.title }}">
+    </div>
+  {% endif %}
   <div class="bio-container">
     <img class="bio-image" src="{{ section.image }}" alt="{{ section.alt | default: section.title }}">
     <div class="bio-text">

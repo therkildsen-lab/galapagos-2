@@ -13,6 +13,7 @@ sections:
   - type: bio.html
     section_id: ana-ortiz
     title: Ana Ortiz
+    main_image: /galapagos-2/assets/img/ambassadors/ana7488.jpeg  # New field!
     image: /galapagos-2/assets/img/ambassadors/ana_the_guardian.jpg
     alt: Ambassador Thumbnail
     text: >-
