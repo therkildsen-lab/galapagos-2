@@ -1,4 +1,7 @@
-{% assign img_left = section.img_left | default: true %}
+{% assign img_left = true %}
+{% if section.img_left == false or section.img_left == 'false' %}
+  {% assign img_left = false %}
+{% endif %}
 <div class="challenge-block{% if img_left %} img-left{% else %} img-right{% endif %}">
   {% if img_left %}
     <div class="challenge-img"><img src="{{ section.image }}" alt="" /></div>
@@ -8,4 +11,3 @@
     <div class="challenge-img"><img src="{{ section.image }}" alt="" /></div>
   {% endif %}
 </div>
-
