@@ -1,15 +1,20 @@
 ---
 layout: page
-title: Overcoming Conservation Challenges
+title: Our Goals
 background_image: "/galapagos-2/assets/img/portfolio/fullsize/challenge_header.jpg"
 
 sections:
+  - type: paragraph.html
+    section_id: intro
+    text: >-
+      **The future of the Galapagos is in our hands: Bold innovation is the only path forward.**
+      
   - type: challenge_block.html
     section_id: block1
-    image: /galapagos-2/assets/img/challenges/gct_cover.png
+    image: /galapagos-2/assets/img/goals/IMG-20240113-WA0030.jpg
     img_left: true
     text: >-
-      **The future of the Galapagos is in our hands: Bold innovation is the only path forward.**  
+      **Genomics as a Tool for Conservation Action:**  
     
     
       - Create an international genomics consortium.
