@@ -6,6 +6,7 @@ background_image: "/galapagos-2/assets/img/portfolio/fullsize/challenge_header.j
 sections:
   - type: paragraph.html
     section_id: intro
+    image: /galapagos-2/assets/img/challenges/powering_conservation.png
     text: >-
       **Our traditional conservation tools are failing to keep pace with the mounting challenges:**
 
