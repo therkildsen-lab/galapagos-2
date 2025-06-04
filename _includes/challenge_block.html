@@ -1,10 +1,11 @@
-{% assign img_left = include.img_left | default: true %}
+{% assign img_left = section.img_left | default: true %}
 <div class="challenge-block{% if img_left %} img-left{% else %} img-right{% endif %}">
   {% if img_left %}
-    <div class="challenge-img"><img src="{{ include.image }}" alt="" /></div>
-    <div class="challenge-text">{{ include.text | markdownify }}</div>
+    <div class="challenge-img"><img src="{{ section.image }}" alt="" /></div>
+    <div class="challenge-text">{{ section.text | markdownify }}</div>
   {% else %}
-    <div class="challenge-text">{{ include.text | markdownify }}</div>
-    <div class="challenge-img"><img src="{{ include.image }}" alt="" /></div>
+    <div class="challenge-text">{{ section.text | markdownify }}</div>
+    <div class="challenge-img"><img src="{{ section.image }}" alt="" /></div>
   {% endif %}
 </div>
+
