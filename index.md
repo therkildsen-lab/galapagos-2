@@ -58,7 +58,7 @@ sections:
       - title: Overcoming Conservation Challenges
         text: Genomics Unlocks New Possibilities for Protecting Nature.
         icon: challenge.png
-        url: '#'
+        url: /galapagos-2/conservation_challenge.html
       - title: Our Goals
         text: Bold innovation is the only path forward.
         icon: goals.png

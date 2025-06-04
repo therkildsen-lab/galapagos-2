@@ -11203,3 +11203,53 @@ section#aside.bg-custom-image-partners {
   box-shadow: 0 2px 8px rgba(60,60,90,0.09);
   flex-shrink: 0;
 }
+
+.challenge-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 1px 16px rgba(50,70,100,0.07);
+}
+
+.challenge-block .challenge-img {
+  flex: 1 1 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.challenge-block .challenge-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(60,60,90,0.12);
+  object-fit: cover;
+}
+
+.challenge-block .challenge-text {
+  flex: 2 1 400px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.challenge-block.img-right {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 900px) {
+  .challenge-block, .challenge-block.img-right {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 1rem;
+  }
+  .challenge-block .challenge-text, .challenge-block .challenge-img {
+    max-width: 100%;
+  }
+}
+
