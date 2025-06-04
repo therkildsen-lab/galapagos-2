@@ -13,10 +13,9 @@ sections:
     section_id: block1
     image: /galapagos-2/assets/img/goals/IMG-20240113-WA0030.jpg
     img_left: true
-    text: >-
-      **Genomics as a Tool for Conservation Action:**  
-    
-    
+    text: |-
+      **Genomics as a Tool for Conservation Action:**
+
       - Create an international genomics consortium.
       - Build a genomic atlas of the Galápagos Marine Reserve.
       - Map regions of high and low genetic diversity.
