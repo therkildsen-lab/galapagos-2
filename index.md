@@ -70,7 +70,7 @@ sections:
       - title: Latest Project Highlights
         text: Stay Updated on Our Ongoing Work.
         icon: work.png
-        url: '#'
+        url: /galapagos-2/projects.html
       - title: Be Part of the Solution
         text: Support Our Mission to Advance Conservation Science in the Galapagos.
         icon: join_us.png
