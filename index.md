@@ -62,7 +62,7 @@ sections:
       - title: Our Goals
         text: Bold innovation is the only path forward.
         icon: goals.png
-        url: '#'
+        url: /galapagos-2/goals.html
       - title: The State of Genomic Data in the Galapagos
         text: How Complete is Our DNA Knowledge of Galapagos Animals?
         icon: state_genomics.png

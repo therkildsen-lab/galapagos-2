@@ -1,22 +1,15 @@
 ---
 layout: page
-title: Overcoming Conservation Challenges
+title: The state of Genomics
 background_image: "/galapagos-2/assets/img/portfolio/fullsize/challenge_header.jpg"
 
 sections:
-  - type: paragraph.html
-    section_id: intro
-    text: >-
-      **Our traditional conservation tools are failing to keep pace with the mounting challenges:**
-
   - type: challenge_block.html
     section_id: block1
     image: /galapagos-2/assets/img/challenges/gct_cover.png
     img_left: true
     text: >-
-      **Galapagos conservation is uniquely challenging.**  
-      Isolated island ecosystems, invasive species, and increasing human impact create urgent, complex problems. Genomics gives us powerful tools for both understanding and solving these issues.
-      
+      **How Complete is Our DNA Knowledge of Galapagos Animals?**
 
   - type: challenge_block.html
     section_id: block2
