@@ -1,8 +1,10 @@
 ---
-layout: page
-title: Current Work
-background_image: "/galapagos-2/assets/img/portfolio/fullsize/challenge_header.jpg"
-
+layout: home
+header:
+  title: Current work
+  text: >
+     Breakthrough Science That Will Redefine Galapagos Conservation
+     
 sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
