@@ -66,7 +66,7 @@ sections:
       - title: The State of Genomic Data in the Galapagos
         text: How Complete is Our DNA Knowledge of Galapagos Animals?
         icon: state_genomics.png
-        url: '#'
+        url: /galapagos-2/genomics.html
       - title: Latest Project Highlights
         text: Stay Updated on Our Ongoing Work.
         icon: work.png
