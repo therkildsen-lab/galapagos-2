@@ -11247,3 +11247,8 @@ section#aside.bg-custom-image-partners {
     gap: 1rem;
   }
 }
+
+.section-image img {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(60,60,90,0.10);
+}
