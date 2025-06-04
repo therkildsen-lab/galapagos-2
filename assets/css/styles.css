@@ -11205,10 +11205,10 @@ section#aside.bg-custom-image-partners {
 }
 
 .challenge-block.img-left {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 .challenge-block.img-right {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse !important;
 }
 .challenge-block {
   display: flex;
